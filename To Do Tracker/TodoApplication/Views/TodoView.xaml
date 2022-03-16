@@ -5,104 +5,95 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModels="clr-namespace:TodoApplication.ViewModels"
         mc:Ignorable="d"
-        Title="To Do Tracker" Height="600" Width="800">
-
+        Title="To Do Tracker" Height="450" Width="600">
+    
     <Window.Resources>
         <viewModels:TodoItemModel x:Key="TodoItemModel" />
     </Window.Resources>
 
-    <Grid DataContext="{StaticResource ResourceKey=TodoItemModel}" Background="Azure">
+    <Grid DataContext="{StaticResource ResourceKey=TodoItemModel}" Background="AliceBlue">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        
-        <StackPanel>
-            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" FontWeight="Bold" FontSize="30">
-                To Do Tracker
-            </TextBlock>
-            <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" FontSize="20" Foreground="Red" Text="{Binding ErrorMsg}"/>
-            <Border Height="300" Margin="200, 0, 200, 0" BorderThickness="5" BorderBrush="DimGray">
-                <ListBox ItemsSource="{Binding TodoItemList}" HorizontalContentAlignment="Stretch" Focusable="False">
-                    <ListBox.ItemContainerStyle>
-                        <Style TargetType="{x:Type ListBoxItem}">
-                            <Setter Property="Focusable" Value="False"/>
-                            <Setter Property="Template">
-                                <Setter.Value>
-                                    <ControlTemplate TargetType="ListBoxItem">
-                                        <ContentPresenter/>
-                                    </ControlTemplate>
-                                </Setter.Value>
-                            </Setter>
-                        </Style>
-                    </ListBox.ItemContainerStyle>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="4*" />
+        </Grid.ColumnDefinitions>
+        <Border BorderThickness="5" BorderBrush="DimGray" CornerRadius="10" Margin="5 20 5 120"  Background="White">
+            <Grid Grid.Row="0" Grid.Column="0" Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
 
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <Border Padding="5, 5, 5, 5" Margin="5, 5, 5, 5" BorderThickness="3" CornerRadius="5" BorderBrush="DimGray">
-                                <Grid>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="Auto"/>
-                                    </Grid.RowDefinitions>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto"/>
-                                        <ColumnDefinition Width="200"/>
-                                        <ColumnDefinition Width="Auto"/>
-                                    </Grid.ColumnDefinitions>
-
-                                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Title: "/>
-                                    <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Title}" />
-                                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Description: "/>
-                                    <TextBlock Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="{Binding Description}" />
-                                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Completed: "/>
-                                    <TextBlock Grid.Row="2" Grid.Column="1"  Text="{Binding IsComplete}" />
-
-                                    <Border Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" CornerRadius="5" Background="Red">
-                                        <Button Width="60" Height="20" HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" Foreground="White" Command="{Binding Source={StaticResource TodoItemModel}, Path=DeleteTodoItemCommand}" CommandParameter="{Binding Id}">Delete</Button>
-                                    </Border>
-                                    <Border Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" CornerRadius="5" Background="Green">
-                                        <Border.Style>
-                                            <Style TargetType="Border">
-                                                <Style.Triggers>
-                                                    <DataTrigger Binding="{Binding IsComplete}" Value="True">
-                                                        <Setter Property="Visibility" Value="Hidden"/>
-                                                    </DataTrigger>
-                                                </Style.Triggers>
-                                            </Style>
-                                        </Border.Style>
-                                        <Button Width="60" Height="25" HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" Foreground="White" Command="{Binding Source={StaticResource TodoItemModel}, Path=UpdateTodoItemCommand}" CommandParameter="{Binding Id}">Complete</Button>
-                                    </Border>
-                                </Grid>
-                            </Border>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
-            </Border>
-        </StackPanel>
-        
-        <StackPanel>
-            <Border BorderThickness="5" BorderBrush="DimGray" Margin="200, 375, 200, 0" Background="White">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="30"/>
-                        <RowDefinition Height="60"/>
-                        <RowDefinition Height="50"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-                    <Label Grid.Row="0" Grid.Column="0" FontSize="13" FontWeight="Bold" Content="Title:"/>
-                    <TextBox Grid.Row="0" Grid.Column="1" FontSize="13" Margin="5" Text="{Binding NewTodoItem.Title}"/>
-                    <Label Grid.Row="1" Grid.Column="0" FontSize="13" FontWeight="Bold" Content="Description:"/>
-                    <TextBox Grid.Row="1" Grid.Column="1" FontSize="13" Margin="5" TextWrapping="Wrap" Text="{Binding NewTodoItem.Description}"/>
-                    <Border Grid.Row="2" Grid.Column="1" BorderThickness="3" BorderBrush="DimGray" Background="LightGreen" CornerRadius="2" HorizontalAlignment="Right" Margin="5">
-                        <Button Background="Transparent" BorderThickness="0"  Command="{Binding CreateTodoItemCommand}">Create To Do</Button>
+                <Label Grid.Row="0"  FontSize="13" FontWeight="Bold" Content="Title:"/>
+                <TextBox Grid.Row="1" Margin="5" Text="{Binding NewTodoItem.Title}"/>
+                <Label Grid.Row="2"  FontSize="13" FontWeight="Bold" Content="Description:"/>
+                <TextBox Grid.Row="3" Margin="5" TextWrapping="Wrap" Height="60" Text="{Binding NewTodoItem.Description}"/>
+                <StackPanel Grid.Row="4" Margin="5">
+                    <Border HorizontalAlignment="Center" CornerRadius="5" Background="Green">
+                        <Button Width="60" HorizontalAlignment="Center" Background="Transparent" BorderThickness="0" Foreground="White" Command="{Binding CreateTodoItemCommand}">Create</Button>
                     </Border>
+                </StackPanel>
+                <TextBlock Grid.Row="5" TextWrapping="Wrap" Foreground="Red" Padding="2" Text="{Binding ErrorMsg}" />
                 </Grid>
-            </Border>  
-        </StackPanel>
+        </Border>
+
+        <Grid Grid.Row="0" Grid.Column="1" Margin="5" Height="400">
+            <ItemsControl ItemsSource="{Binding TodoItemList}">
+                <ItemsControl.Template>
+                    <ControlTemplate>
+                        <ScrollViewer x:Name="ScrollViewer" Padding="10">
+                            <ItemsPresenter />
+                        </ScrollViewer>
+                    </ControlTemplate>
+                </ItemsControl.Template>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                            <Border BorderBrush="DimGray" BorderThickness="5" Padding="10" Margin="5" CornerRadius="10"  Background="White">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="225"/>
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" FontSize="16"  FontWeight="Bold" Text="Title: "/>
+                                <TextBlock Grid.Row="0" Grid.Column="1" Margin="5" Text="{Binding Title}" />
+                                <TextBlock Grid.Row="1" Grid.Column="0" FontSize="16" FontWeight="Bold" Text="Description: "/>
+                                <TextBlock Grid.Row="1" Grid.Column="1" Margin="5" TextWrapping="Wrap" Text="{Binding Description}" />
+                                <TextBlock Grid.Row="2" Grid.Column="0" FontSize="16"  FontWeight="Bold" Text="Completed: "/>
+                                <TextBlock Grid.Row="2" Grid.Column="1" Margin="5" Text="{Binding IsComplete}" />
+
+                                <Border Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" CornerRadius="5" Background="Red">
+                                    <Button Width="60"  HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" Foreground="White" Command="{Binding Source={StaticResource TodoItemModel}, Path=DeleteTodoItemCommand}" CommandParameter="{Binding Id}">Delete</Button>
+                                </Border>
+                                <Border Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" CornerRadius="5" Background="Green">
+                                    <Border.Style>
+                                        <Style TargetType="Border">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding IsComplete}" Value="True">
+                                                    <Setter Property="Visibility" Value="Hidden"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Border.Style>
+                                    <Button Width="60"  HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" Foreground="White" Command="{Binding Source={StaticResource TodoItemModel}, Path=UpdateTodoItemCommand}" CommandParameter="{Binding Id}">Complete</Button>
+                                </Border>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Grid>
     </Grid>
 </Window>

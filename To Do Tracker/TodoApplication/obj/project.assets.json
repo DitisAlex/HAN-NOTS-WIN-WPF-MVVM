@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Redux Gamer\\source\\repos\\To Do Tracker - Alex Cheng\\TodoApplication\\TodoApplication.csproj",
+      "projectUniqueName": "D:\\Repository\\HAN-NOTS-WIN-WPF-MVVM\\To Do Tracker\\TodoApplication\\TodoApplication.csproj",
       "projectName": "TodoApplication",
-      "projectPath": "C:\\Users\\Redux Gamer\\source\\repos\\To Do Tracker - Alex Cheng\\TodoApplication\\TodoApplication.csproj",
+      "projectPath": "D:\\Repository\\HAN-NOTS-WIN-WPF-MVVM\\To Do Tracker\\TodoApplication\\TodoApplication.csproj",
       "packagesPath": "C:\\Users\\Redux Gamer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Redux Gamer\\source\\repos\\To Do Tracker - Alex Cheng\\TodoApplication\\obj\\",
+      "outputPath": "D:\\Repository\\HAN-NOTS-WIN-WPF-MVVM\\To Do Tracker\\TodoApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Redux Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",

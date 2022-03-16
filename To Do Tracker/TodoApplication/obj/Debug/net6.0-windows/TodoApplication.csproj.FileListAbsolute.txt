@@ -42,3 +42,25 @@ C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj
 C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\ref\TodoApplication.dll
 C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.pdb
 C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.genruntimeconfig.cache
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.exe
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.deps.json
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.runtimeconfig.json
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.dll
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\bin\Debug\net6.0-windows\ref\TodoApplication.dll
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.pdb
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.csproj.AssemblyReference.cache
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\Views\TodoView.g.cs
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\App.g.cs
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\TodoApplication_MarkupCompile.cache
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\TodoApplication_MarkupCompile.lref
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\Views\TodoView.baml
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.g.resources
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.AssemblyInfoInputs.cache
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.AssemblyInfo.cs
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.csproj.CoreCompileInputs.cache
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.dll
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\ref\TodoApplication.dll
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.pdb
+D:\Repository\HAN-NOTS-WIN-WPF-MVVM\To Do Tracker\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.genruntimeconfig.cache

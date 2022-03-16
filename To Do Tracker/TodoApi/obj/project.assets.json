@@ -9637,11 +9637,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Redux Gamer\\source\\repos\\To Do Tracker - Alex Cheng\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "D:\\Repository\\HAN-NOTS-WIN-WPF-MVVM\\To Do Tracker\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\Redux Gamer\\source\\repos\\To Do Tracker - Alex Cheng\\TodoApi\\TodoApi.csproj",
+      "projectPath": "D:\\Repository\\HAN-NOTS-WIN-WPF-MVVM\\To Do Tracker\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\Redux Gamer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Redux Gamer\\source\\repos\\To Do Tracker - Alex Cheng\\TodoApi\\obj\\",
+      "outputPath": "D:\\Repository\\HAN-NOTS-WIN-WPF-MVVM\\To Do Tracker\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Redux Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",

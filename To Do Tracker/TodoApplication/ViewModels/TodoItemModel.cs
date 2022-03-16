@@ -66,9 +66,10 @@ namespace TodoApplication.ViewModels
         async void ExecuteCreateTodoItem(object param)
         {
             if(string.IsNullOrEmpty(NewTodoItem.Title) || string.IsNullOrEmpty(NewTodoItem.Description)){
-                ErrorMsg = "[Form Error]: All fields must be filled in";
+                ErrorMsg = "[Form Error]: All fields must be filled in.";
             } else
             {
+                ErrorMsg = "";
                 var _connectionUrl = "https://localhost:7085/api/todoitems";
                 HttpClient _client = new();
 
