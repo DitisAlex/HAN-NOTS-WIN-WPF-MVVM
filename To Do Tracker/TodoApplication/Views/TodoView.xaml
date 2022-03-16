@@ -35,7 +35,7 @@
                 <Label Grid.Row="2"  FontSize="13" FontWeight="Bold" Content="Description:"/>
                 <TextBox Grid.Row="3" Margin="5" TextWrapping="Wrap" Height="60" Text="{Binding NewTodoItem.Description}"/>
                 <StackPanel Grid.Row="4" Margin="5">
-                    <Border HorizontalAlignment="Center" CornerRadius="5" Background="Green">
+                    <Border HorizontalAlignment="Center" CornerRadius="5" Background="RoyalBlue">
                         <Button Width="60" HorizontalAlignment="Center" Background="Transparent" BorderThickness="0" Foreground="White" Command="{Binding CreateTodoItemCommand}">Create</Button>
                     </Border>
                 </StackPanel>
@@ -74,10 +74,10 @@
                                 <TextBlock Grid.Row="2" Grid.Column="0" FontSize="16"  FontWeight="Bold" Text="Completed: "/>
                                 <TextBlock Grid.Row="2" Grid.Column="1" Margin="5" Text="{Binding IsComplete}" />
 
-                                <Border Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" CornerRadius="5" Background="Red">
+                                <Border Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right" CornerRadius="5" Background="DarkSlateBlue">
                                     <Button Width="60"  HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" Foreground="White" Command="{Binding Source={StaticResource TodoItemModel}, Path=DeleteTodoItemCommand}" CommandParameter="{Binding Id}">Delete</Button>
                                 </Border>
-                                <Border Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" CornerRadius="5" Background="Green">
+                                <Border Grid.Row="2" Grid.Column="2" HorizontalAlignment="Right" CornerRadius="5" Background="RoyalBlue">
                                     <Border.Style>
                                         <Style TargetType="Border">
                                             <Style.Triggers>
