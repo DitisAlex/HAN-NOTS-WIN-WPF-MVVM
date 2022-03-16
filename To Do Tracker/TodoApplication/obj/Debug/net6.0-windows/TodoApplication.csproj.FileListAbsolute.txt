@@ -1,0 +1,44 @@
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.exe
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.deps.json
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.runtimeconfig.json
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.dll
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\bin\Debug\net6.0-windows\ref\TodoApplication.dll
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.pdb
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.csproj.AssemblyReference.cache
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\TodoApplication_MarkupCompile.cache
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\TodoApplication_MarkupCompile.lref
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.g.resources
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.AssemblyInfoInputs.cache
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.AssemblyInfo.cs
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.csproj.CoreCompileInputs.cache
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.dll
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\ref\TodoApplication.dll
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.pdb
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.genruntimeconfig.cache
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\Views\TodoView.g.cs
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Redux Gamer\source\repos\TodoApi\TodoApplication\obj\Debug\net6.0-windows\Views\TodoView.baml
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.exe
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.deps.json
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.runtimeconfig.json
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.dll
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\bin\Debug\net6.0-windows\ref\TodoApplication.dll
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\bin\Debug\net6.0-windows\TodoApplication.pdb
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.csproj.AssemblyReference.cache
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\Views\TodoView.g.cs
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication_MarkupCompile.cache
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication_MarkupCompile.lref
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\Views\TodoView.baml
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.g.resources
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.AssemblyInfoInputs.cache
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.AssemblyInfo.cs
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.csproj.CoreCompileInputs.cache
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.dll
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\ref\TodoApplication.dll
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.pdb
+C:\Users\Redux Gamer\source\repos\To Do Tracker - Alex Cheng\TodoApplication\obj\Debug\net6.0-windows\TodoApplication.genruntimeconfig.cache
